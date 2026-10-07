@@ -1,30 +1,36 @@
-# cyberdub-ai — Self-hosted AI Engineering
+# Алексей Жуйков · AI-инфраструктура и телеком
 
-Разрабатываем и эксплуатируем self-hosted AI-инфраструктуру: LLM Gateway, RAG-пайплайны, n8n-автоматизации, Telegram-боты, production Docker stacks.
+С 2007 года руководил телеком-бизнесом: техническим направлением, затем «ТЕЛСИ 2», а с 2015 по 2026 год – АО «ТЕЛСИ». Сейчас разрабатываю и эксплуатирую AI/LLM-системы, интеграции и сервисы для операторов связи.
 
-## Проекты
+**Сейчас работаю удалённо.** Рассматриваю ограниченные проекты, технический консалтинг и полностью удалённые роли с дистанционным интервью.
 
-| Проект | Описание | Статус |
-|--------|----------|--------|
-| [Dividend Gap Assistant](https://trading.cyberdub.su) | Дивидендный календарь MOEX, FastAPI + Telegram | ✅ production |
-| Job Matcher | hh.ru вакансии + резюме AI-матчинг, Telegram-бот | 🔧 active |
-| FinPulse | Финансовый дайджест из Telegram-каналов, Qwen 32B | 🔧 active |
-| [AI-CFO](https://aicfo.ru) | Бухгалтерия WB/Ozon, классификация операций | 🔧 active |
-| KeyHunter v2 | Secret scanner, disclosure-focused | 🔨 dev |
-| ProxyForge | Прокси-агрегатор + verifier + rotator | 🔨 dev |
+## Чем могу помочь
 
-## Стек
+| Услуга | Что получает заказчик |
+|---|---|
+| Технический аудит AI/LLM-системы | Карта архитектуры, проверяемые риски и план исправлений |
+| Пилот поиска по внутренним документам | Ответы с цитатами на согласованной выборке, контрольные вопросы и список ошибок |
+| Дистанционная проверка документов оператора связи | Опись материалов, карта пробелов и приоритеты дальнейшей проверки |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+[Состав и границы услуг](https://alexeyzhuykov.ru/expertise) · [Обсудить задачу](https://alexeyzhuykov.ru/contact)
 
-`Ollama` · `Qdrant` · `Caddy` · `WireGuard` · `FastAPI` · `Telegram Bot API` · `Prometheus` · `Grafana`
+## Публичные работы
+
+| Проект | Что можно посмотреть |
+|---|---|
+| [ТелекомЭксперт](https://telekomexpert.ru/) | Сервис для документарной и регуляторной работы оператора связи |
+| [JobDigest](https://jobdigest.ru/) | Продукт с AI-анализом вакансий |
+| [IQ Season](https://iqseason.com/) | Клиентский проект: семейство сервисов оценки домашних услуг для района Бостона |
+| [Dossier / HouseIQ](https://dossier.cyberdub.su/) | Клиентский проект: структурированное досье по адресу недвижимости Массачусетса |
+
+Клиентские проекты показывают выполненную техническую работу. Бизнес и результаты продаж принадлежат их владельцам. Часть коммерческого кода закрыта; публичные страницы и описание вклада собраны в [портфолио](https://alexeyzhuykov.ru/projects).
+
+**Основной стек:** Python, TypeScript, Docker, PostgreSQL, Qdrant, Ollama, RAG, API-интеграции, сетевые и телеком-системы.
 
 ## Контакт
 
-Открыт для контрактов Senior DevOps / AI Engineering и full-time ролей.
+[Личный сайт](https://alexeyzhuykov.ru/) · [LinkedIn](https://www.linkedin.com/in/azhuykov/) · [Хабр](https://habr.com/ru/users/cyberdub/) · [Email](mailto:alexey.zhuykov@gmail.com)
 
-**alexey.zhuykov@gmail.com** · [cyberdub.su](https://cyberdub.su) · [LinkedIn](https://linkedin.com/in/alexey-zhuykov)
+---
+
+**EN:** I have led telecom operations since 2007 and now build AI infrastructure and integration projects. I am currently available for fully remote projects and roles. See my [services](https://alexeyzhuykov.ru/expertise), [project portfolio](https://alexeyzhuykov.ru/projects), and [contact page](https://alexeyzhuykov.ru/contact).
