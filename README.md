@@ -12,6 +12,7 @@
 |---|---|---|
 | [**`mcp-security-gateway`**](https://github.com/cyberdub-ai/mcp-security-gateway) | Zero-Trust Policy Proxy для MCP stdio-серверов: защита от Tool Poisoning, Rug-Pull, Path Traversal, скрытой эксфильтрации и Indirect Prompt Injection | Python 3.11+ stdlib (`0` deps), SHA-256 Tool Pinning & `audit.jsonl`, hardened Docker, `8/8` тестов, CI `3.11–3.13` |
 | [**`frr-dual-isp-failover-lab`**](https://github.com/cyberdub-ai/frr-dual-isp-failover-lab) | Воспроизводимый 3-роутерный стенд FRRouting (`BGP + BFD`, переключение за `0,9 сек`) + анти-транзитная защита и Python-аудитор 10 боевых инвариантов | FRRouting 10.2, Docker Compose, Python 3.11+ stdlib (`0` deps), `10/10` тестов, CI `3.11–3.13` |
+| [**`linux-packet-drop-xray`**](https://github.com/cyberdub-ai/linux-packet-drop-xray) | 5-уровневый рентген потерь пакетов в Linux (`ethtool -S`, `/proc/net/softnet_stat`, `tc qdisc`, `ss -tin`/`nstat`, eBPF `kfree_skb`) + JSON-триаж и готовые фиксы | Python 3.11+ stdlib (`0` deps), `bpftrace`, Bash, `10/10` тестов, CI `3.11–3.13` |
 | [**`claude-token-control`**](https://github.com/cyberdub-ai/claude-token-control) | Статусбар и контроль расхода токенов для агентных сессий Claude Code | Python, CLI |
 
 ---
@@ -61,7 +62,7 @@
 
 **Alexey Zhuykov** — Telecom & AI Infrastructure Architect with 19+ years of hands-on ISP leadership and Linux SRE experience (BGP/BFD, IPv6, VoIP/Asterisk, Neo4j 3/3 Lifetime, RIPE NCC Academy IPv6 & BGP Security, Hugging Face 10/10).
 
-- **Open-Source Proof of Work:** [`mcp-security-gateway`](https://github.com/cyberdub-ai/mcp-security-gateway) (zero-dependency Zero-Trust policy proxy for MCP stdio servers) & [`frr-dual-isp-failover-lab`](https://github.com/cyberdub-ai/frr-dual-isp-failover-lab) (reproducible FRRouting BGP+BFD 0.9s failover lab & policy linter).
+- **Open-Source Proof of Work:** [`mcp-security-gateway`](https://github.com/cyberdub-ai/mcp-security-gateway) (zero-dependency Zero-Trust policy proxy for MCP stdio servers), [`frr-dual-isp-failover-lab`](https://github.com/cyberdub-ai/frr-dual-isp-failover-lab) (reproducible FRRouting BGP+BFD 0.9s failover lab & policy linter), & [`linux-packet-drop-xray`](https://github.com/cyberdub-ai/linux-packet-drop-xray) (5-layer Linux packet drop analyzer with `ethtool`, `softnet_stat`, `tc`, `ss/nstat`, and eBPF `kfree_skb`).
 - **Available remotely** for AI/MCP security reviews, on-premise RAG/GraphRAG architecture, Linux/BGP/VoIP hardening audits, and Fractional CTO / Principal Architect roles.
 - **Links:** [Portfolio](https://alexeyzhuykov.ru/projects) · [Services](https://alexeyzhuykov.ru/expertise) · [LinkedIn](https://www.linkedin.com/in/azhuykov/) · [Contact](https://alexeyzhuykov.ru/contact)
 
